@@ -1,0 +1,9 @@
+/AGENTS.md
+/.local/
+/.env
+/.env.*
+!/.env.example
+/node_modules/
+/dist/
+/coverage/
+/.mini-dsh/
