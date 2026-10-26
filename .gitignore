@@ -7,3 +7,42 @@
 /dist/
 /coverage/
 /.mini-dsh/
+
+# Python and local development
+/.venv/
+/venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+/.vscode/
+/.idea/
+.DS_Store
+
+# Runtime state and machine-specific tool configuration
+/.bear/
+/.bear-code/
+/.BearCode/
+/.mcp.json
+/.transcripts/
+/.task_outputs/
+/.tasks/
+/.teams/
+*.log
+
+# Private preparation notes and local reference material
+/wiki/
+/Wiki/
+/paper/
+/analysis/
+/analysis_progress.md
+/面试*.md
+/简历*.md
+/为什么还要做*.md
+/项目评测.md
+/在线Skills评测实现说明.md
+
+# Keep the distributable evaluation fixture only
+/data/*
+!/data/folding_eval_smoke.jsonl
